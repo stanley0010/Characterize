@@ -6,7 +6,7 @@ export function Items() {
   return (
     <>
       {keys.map((key) => (
-        <tr>
+        <tr style={{ flex: 1 }}>
           <td>{key}</td>
           <td style={{ padding: 40 }}>{data[key].desc}</td>
           <td>
@@ -14,9 +14,7 @@ export function Items() {
               style={{
                 display: "flex",
                 flexDirection: "row",
-                flexWrap: "nowrap",
-                justifyContent: "flex-start",
-                alignContent: "stretch",
+                flexWrap: "wrap",
                 alignItems: "flex-start",
               }}
             >
@@ -28,29 +26,5 @@ export function Items() {
         </tr>
       ))}
     </>
-    // <>
-    //   {data.map((item) => (
-    //     <tr>
-    //       <td>{item.name}</td>
-    //       <td style={{ padding: 40 }}>{item.desc}</td>
-    //       <td>
-    //         <div
-    //           style={{
-    //             display: "flex",
-    //             flexDirection: "row",
-    //             flexWrap: "nowrap",
-    //             justifyContent: "flex-start",
-    //             alignContent: "stretch",
-    //             alignItems: "flex-start",
-    //           }}
-    //         >
-    //           {item.meanings.map((meaning) => (
-    //             <Badge name={meaning} />
-    //           ))}
-    //         </div>
-    //       </td>
-    //     </tr>
-    //   ))}
-    // </>
   );
 }
