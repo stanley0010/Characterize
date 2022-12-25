@@ -1,9 +1,8 @@
-[
-  {
-    "name": "Oracle",
+{
+  "Oracle": {
     "desc": "The Oracle is a fictional character in The Matrix franchise. She possesses the power of foresight, which she uses to advise and guide the humans attempting to fight the Matrix.",
     "meanings": ["Prophecy", "Wisdom", "Good"]
   },
-  { "name": "Temeraire", "desc": "UK Ship", "meanings": ["Warrior"] },
-  { "name": "Temeraire", "desc": "UK Ship", "meanings": ["Warrior"] }
-]
+  "Temeraire": { "desc": "UK Ship", "meanings": ["Warrior"] },
+  "A bloody big ship": { "desc": "UK Ship", "meanings": ["Warrior"] }
+}
