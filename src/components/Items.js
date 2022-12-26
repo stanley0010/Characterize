@@ -1,11 +1,11 @@
 import Badge from "./Badge";
 import data from "../data_array.json";
 
-export function Items() {
+export function Items({ filteredItems }) {
   const keys = Object.keys(data);
   return (
     <>
-      {data.map((item) => (
+      {filteredItems.map((item) => (
         <tr key={`tr-${item.name}`} style={{ flex: 1 }}>
           <td>{item.name}</td>
           <td style={{ padding: 40 }}>{item.desc}</td>
