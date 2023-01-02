@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Table from "./components/Table";
 import SearchInput, { createFilter } from "react-search-input";
-import data from "./data_array.json";
+import data from "./data.json";
 
 function App() {
   const KEYS_TO_FILTERS = ["name", "meanings"];

@@ -1,8 +1,6 @@
 import Badge from "./Badge";
-import data from "../data_array.json";
 
 export function Items({ filteredItems }) {
-  const keys = Object.keys(data);
   return (
     <>
       {filteredItems.map((item) => (
@@ -15,7 +13,7 @@ export function Items({ filteredItems }) {
                 display: "flex",
                 flexDirection: "row",
                 flexWrap: "wrap",
-                alignItems: "flex-start",
+                justifyContent: "center",
               }}
             >
               {item.meanings.map((meaning) => (
@@ -25,26 +23,6 @@ export function Items({ filteredItems }) {
           </td>
         </tr>
       ))}
-      {/* {keys.map((key) => (
-        <tr style={{ flex: 1 }}>
-          <td>{key}</td>
-          <td style={{ padding: 40 }}>{data[key].desc}</td>
-          <td>
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                flexWrap: "wrap",
-                alignItems: "flex-start",
-              }}
-            >
-              {data[key].meanings.map((meaning) => (
-                <Badge name={meaning} />
-              ))}
-            </div>
-          </td>
-        </tr>
-      ))} */}
     </>
   );
 }

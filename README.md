@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Characterize Your Project!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Want to give your project a cool name? A name with symbolic and profound meaning? You are in the right place!
 
-## Available Scripts
+Characterize is a database containing names that have symbolic meaning. It includes characters in history, books, legends and movies.
 
-In the project directory, you can run:
+Search by character's name or by meaning here: 
 
-### `yarn start`
+## Motivation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+As a developer, I have a lot side project ideas. And I always want cool names for them that mean something (not "Bronze Husky" from random project name generator). But something like Oracle(Matrix), a symbol of wisdom, and Gandalf(LOTR), the symbol of goodness. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Make it great together
 
-### `yarn test`
+I am no expert in history and neither do I know a lot of characters in movies and stories. But I believe many of you reading this are:) Please contribute! 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Contribute to the database
 
-### `yarn build`
+This part requires the most contribution from you guys:)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Characters
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Add characters that have a symbolic meaning or represents certain values. For example, good, evil, wisdom, ignorance, love and hatred. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Description
 
-### `yarn eject`
+Make it neat and easy to read. Do not include any jargons so that everyone can understand without context.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Where can I add my characters?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+In the project directory under "src", you will find "data.json". It contains all characters' information. Take reference to the existing records' format or else the website will not work.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Contribute as a developer
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This is a React.js project, with the aim of not using too many packages to keep a small bundle size. 
+This is also my first open-source project, so you can tell me how/ make it more open-source friendly.
+Feel free to open a issue request to add additional features.
 
-## Learn More
+`yarn start` to run your project locally.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`yarn test` to run test (contribution needed for testing the website).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`yarn build` to build the project for deployment.

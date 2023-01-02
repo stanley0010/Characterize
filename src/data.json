@@ -1,22 +1,17 @@
-{
-  "Oracle": {
+[
+  {
+    "name": "Oracle",
     "desc": "The Oracle is a fictional character in The Matrix franchise. She possesses the power of foresight, which she uses to advise and guide the humans attempting to fight the Matrix.",
     "meanings": ["Prophecy", "Wisdom", "Good"]
   },
-  "Temeraire": {
-    "desc": "UK Ship",
-    "meanings": [
-      "Warrior",
-      "Wisdom",
-      "Good",
-      "Prophecy",
-      "Wisdom",
-      "Good",
-      "Prophecy"
-    ]
+  {
+    "name": "Temeraire",
+    "desc": "HMS Temeraire was a ship of the line of the United Kingdom's Royal Navy. Launched in 1798, she served during the French Revolutionary and Napoleonic Wars. She became so well known for that action and her subsequent depictions in art and literature that she has been remembered as The Fighting Temeraire.",
+    "meanings": ["Warrior", "Old"]
   },
-  "A bloody big ship": {
-    "desc": "UK Ship",
-    "meanings": ["Prophecy", "Wisdom", "Good", "Prophecy"]
+  {
+    "name": "Gandalf",
+    "desc": "Gandalf is a protagonist in J. R. R. Tolkien's novels The Hobbit and The Lord of the Rings. He has great power, but works mostly by encouraging and persuading. Gandalf is a guide-figure who assists the protagonists to counter the Dark Lord Sauron.",
+    "meanings": ["Wisdom", "Guide", "Good"]
   }
-}
+]
