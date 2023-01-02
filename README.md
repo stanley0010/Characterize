@@ -6,6 +6,8 @@ Characterize is a database containing names that have symbolic meaning. It inclu
 
 Search by character's name or by "qualities" (e.g. Wisdom) here: https://stanley0010.github.io/characterize/
 
+![Characterize!](https://imgur.com/gallery/N2TpA7y)
+
 ## Motivation
 
 As a developer, I have a lot side project ideas. And I always want cool names for them that mean something (not "Bronze Husky" from random project name generator). But something like Oracle(Matrix), a symbol of wisdom, and Gandalf(LOTR), the symbol of goodness. 
