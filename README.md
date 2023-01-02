@@ -34,10 +34,12 @@ In the project directory under "src", you will find "data.json". It contains all
 
 This is a React.js project, with the aim of not using too many packages to keep a small bundle size. 
 This is also my first open-source project, so you can tell me how/ make it more open-source friendly.
-Feel free to open a issue request to add additional features.
+Feel free to open an issue request to add additional features.
+
+After each modification to the code, please deploy it and check if the website rendered properly.
 
 `yarn start` to run your project locally.
 
 `yarn test` to run test (contribution needed for testing the website).
 
-`yarn build` to build the project for deployment.
+`yarn deploy` to build the project for deployment and deploy it to Github Pages.
