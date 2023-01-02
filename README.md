@@ -6,7 +6,7 @@ Characterize is a database containing names that have symbolic meaning. It inclu
 
 Search by character's name or by "qualities" (e.g. Wisdom) here: https://stanley0010.github.io/characterize/
 
-![Characterize!](https://imgur.com/gallery/N2TpA7y)
+![Imgur](https://i.imgur.com/5E2g1Us.png)
 
 ## Motivation
 
