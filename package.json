@@ -2,7 +2,7 @@
   "name": "characterize",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stanley0010.github.io/characterize",
+  "homepage": "https://stanley0010.github.io/Characterize",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
