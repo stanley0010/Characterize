@@ -4,7 +4,7 @@
 
 Characterize is a database containing names that have symbolic meaning. It includes characters in history, books, legends and movies.
 
-Search by character's name or by meaning here: 
+Search by character's name or by meaning here: https://stanley0010.github.io/characterize/
 
 ## Motivation
 
